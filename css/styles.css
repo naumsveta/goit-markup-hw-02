@@ -38,6 +38,7 @@ body {
 .button:hover,
 .button:focus {
     background-color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 .button {
@@ -162,6 +163,7 @@ body {
 
 .filter-btn {
     color: var(--main-color);
+    background-color: #f5f4fA;
     font-weight: var(--text-weight);
     font-size: var(--secondary-text-size);
     line-height: 1.6;
