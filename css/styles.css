@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #eeeeee;
+    --secondary-color: #2f303a;
+    --accent-color: #2196f3;
+    --title-color: #212121;
+    --text-color: #757575; 
+
+    --main-font: 'Roboto', sans-serif;
+    --title-size: 36px;
+    --text-size: 16px;
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--primary-color);
+
+}
+
