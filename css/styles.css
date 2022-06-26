@@ -1,18 +1,82 @@
 :root {
-    --primary-color: #eeeeee;
+    --primary-color: #ffffff;
     --secondary-color: #2f303a;
     --accent-color: #2196f3;
-    --title-color: #212121;
+    --main-color: #212121;
     --text-color: #757575; 
 
     --main-font: 'Roboto', sans-serif;
     --title-size: 36px;
-    --text-size: 16px;
+    --text-size: 14px;
 }
 
 body {
     font-family: var(--main-font);
-    color: var(--primary-color);
-
+    color: var(--text-color);
 }
 
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.section {
+    background-color: var(--primary-color);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color)
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+}
+
+.button {
+    cursor: pointer;
+}
+
+/*Header*/
+.logo {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.navigation-list {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: var(--text-size);
+    line-height: 1.14;
+}
+
+.header-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+
+.footer {
+    background-color: var(--secondary-color);
+}
+
+.logo-footer {
+    color: var(--primary-color);
+}
+
+.address {
+    font-style: normal ;
+}
