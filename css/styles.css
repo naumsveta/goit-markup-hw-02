@@ -87,6 +87,32 @@ body {
     line-height: 1.9;
 }
 
+/*Peculiarity*/
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+  
+.peculiarity-title {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: var(--text-size);
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.peculiarity-text {
+    font-size: 14px;
+    line-height: 1.7;
+}
 
 .footer {
     background-color: var(--secondary-color);
