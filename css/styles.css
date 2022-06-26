@@ -8,6 +8,8 @@
     --main-font: 'Roboto', sans-serif;
     --title-size: 36px;
     --text-size: 14px;
+    --secondary-text-size: 16px;
+    --text-weight: 500;
 }
 
 body {
@@ -63,13 +65,13 @@ body {
 
 .navigation-list {
     color: var(--main-color);
-    font-weight: 500;
+    font-weight: var(--text-weight);
     font-size: var(--text-size);
     line-height: 1.14;
 }
 
 .header-contacts {
-    font-weight: 500;
+    font-weight: var(--text-weight);
     font-size: var(--text-size);
     line-height: 1.14;
 }
@@ -123,21 +125,15 @@ body {
 /*Team*/
 .team-title {
     color: var(--main-color);
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: var(--text-weight);
+    font-size: var(--secondary-text-size);
     line-height: 1.19;
 }
 
 .team-text {
-    font-size: 16px;
+    font-size: var(--secondary-text-size);
     line-height: 1.19;   
 }
-
-<<<<<<< HEAD
-/*footer*/
-=======
-
->>>>>>> main
 
 .footer {
     background-color: var(--secondary-color);
@@ -160,4 +156,25 @@ body {
 .footer-contacts {
     font-size: var(--text-size);
     line-height: 1.7;
+}
+
+/*portfolio*/
+
+.filter-btn {
+    color: var(--main-color);
+    font-weight: var(--text-weight);
+    font-size: var(--secondary-text-size);
+    line-height: 1.6;
+}
+
+.card-title {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.card-text {
+    font-size: var(--secondary-text-size);
+    line-height: 1.87;
 }
