@@ -15,9 +15,12 @@
 body {
     font-family: var(--main-font);
     color: var(--text-color);
+    font-size: var(--text-size);
+    line-height: 1.7;
 }
 
-.link {
+.link,
+.logo {
     text-decoration: none;
     color: inherit;
 }
@@ -28,6 +31,9 @@ body {
 
 .section {
     background-color: var(--primary-color);
+}
+.current {
+    color: var(--accent-color);
 }
 
 .link:hover,
@@ -67,13 +73,11 @@ body {
 .navigation-list {
     color: var(--main-color);
     font-weight: var(--text-weight);
-    font-size: var(--text-size);
     line-height: 1.14;
 }
 
 .header-contacts {
     font-weight: var(--text-weight);
-    font-size: var(--text-size);
     line-height: 1.14;
 }
 
@@ -118,10 +122,6 @@ body {
     text-transform: uppercase;
 }
 
-.peculiarity-text {
-    font-size: var(--text-size);
-    line-height: 1.7;
-}
 
 /*Team*/
 .team-title {
@@ -150,13 +150,7 @@ body {
 
 .footer-text{
     color: var(--primary-color);
-    font-size: var(--text-size);
-    line-height: 1.7;
-}
 
-.footer-contacts {
-    font-size: var(--text-size);
-    line-height: 1.7;
 }
 
 /*portfolio*/
