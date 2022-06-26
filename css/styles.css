@@ -133,7 +133,7 @@ body {
     line-height: 1.19;   
 }
 
-
+/*footer*/
 
 .footer {
     background-color: var(--secondary-color);
@@ -145,4 +145,15 @@ body {
 
 .address {
     font-style: normal ;
+}
+
+.footer-text{
+    color: var(--primary-color);
+    font-size: var(--text-size);
+    line-height: 1.7;
+}
+
+.footer-contacts {
+    font-size: var(--text-size);
+    line-height: 1.7;
 }
