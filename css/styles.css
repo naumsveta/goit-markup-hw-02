@@ -133,7 +133,11 @@ body {
     line-height: 1.19;   
 }
 
+<<<<<<< HEAD
 /*footer*/
+=======
+
+>>>>>>> main
 
 .footer {
     background-color: var(--secondary-color);
